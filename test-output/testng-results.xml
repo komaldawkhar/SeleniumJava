@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23332" started-at="2021-02-21T17:24:11Z" finished-at="2021-02-21T17:24:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23332" started-at="2021-02-21T17:24:11Z" finished-at="2021-02-21T17:24:34Z">
+      <class name="Academy.UdemyE2E.HomePage">
+        <test-method status="PASS" signature="Navigation()[pri:0, instance:Academy.UdemyE2E.HomePage@384ad17b]" name="Navigation" is-config="true" duration-ms="7112" started-at="2021-02-21T22:54:11Z" finished-at="2021-02-21T22:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.UdemyE2E.HomePage@384ad17b]" name="basePageNavigation" duration-ms="9676" started-at="2021-02-21T22:54:18Z" data-provider="getData" finished-at="2021-02-21T22:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.UdemyE2E.HomePage@384ad17b]" name="basePageNavigation" duration-ms="6361" started-at="2021-02-21T22:54:28Z" data-provider="getData" finished-at="2021-02-21T22:54:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.UdemyE2E.HomePage@384ad17b]" name="teardown" is-config="true" duration-ms="88" started-at="2021-02-21T22:54:34Z" finished-at="2021-02-21T22:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.UdemyE2E.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
